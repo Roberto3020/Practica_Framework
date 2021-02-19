@@ -7,9 +7,9 @@ namespace Practica_Framework
         static void Main(string[] args)
         {
             String nombre,apellido;
-            double nota1;
-            double nota2;
-            double nota3;
+            double notaUno = 0;
+            double notaDos = 0;
+            double notaTres = 0;
             double promedio = 0;
 
             Console.WriteLine("Ingrese el nombre");
@@ -17,13 +17,13 @@ namespace Practica_Framework
             Console.WriteLine("Ingrese el apellido");
             apellido = Console.ReadLine();
             Console.WriteLine("Ingrese la primera nota");
-            nota1 = double.Parse(Console.ReadLine());
+            notaUno = double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese la segunda nota");
-            nota2 = double.Parse(Console.ReadLine());
+            notaDos = double.Parse(Console.ReadLine());
             Console.WriteLine("Imgrese la tercera nota");
-            nota3 = double.Parse(Console.ReadLine());
+            notaTres = double.Parse(Console.ReadLine());
 
-            promedio = (nota1 + nota2 + nota3) / 3;
+            promedio = (notaUno + notaDos + notaTres) / 3;
 
             if (promedio >= 3)
                 Console.WriteLine("El estudiante " + nombre +" "+ apellido + " Aprobo la materia, su promedio es de " + promedio);
