@@ -7,10 +7,10 @@ namespace Ejercicio3_Practica
         static void Main(string[] args)
         {
             String nombreCliente;
-            double numeroCuenta;
+            double numeroCuenta = 0;
             double saldo = 400000;
-            double consignaciones;
-            double retirar;
+            double consignaciones = 0;
+            double retirar = 0;
             int opcion = 0, control = 0;
             //do
             //{
