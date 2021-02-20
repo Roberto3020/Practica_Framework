@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica_Framework", "Pract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practica_Framework_Ejercicio2", "Practica_Framework_Ejercicio2\Practica_Framework_Ejercicio2.csproj", "{A1612756-90DC-44C0-87F8-78E88F9D3AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_Practica", "Ejercicio3_Practica\Ejercicio3_Practica.csproj", "{C4C87E2E-A180-4058-A08B-8206833D9E33}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{A1612756-90DC-44C0-87F8-78E88F9D3AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1612756-90DC-44C0-87F8-78E88F9D3AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1612756-90DC-44C0-87F8-78E88F9D3AF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4C87E2E-A180-4058-A08B-8206833D9E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4C87E2E-A180-4058-A08B-8206833D9E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4C87E2E-A180-4058-A08B-8206833D9E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4C87E2E-A180-4058-A08B-8206833D9E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

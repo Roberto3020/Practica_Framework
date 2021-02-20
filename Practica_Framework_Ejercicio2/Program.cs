@@ -7,7 +7,7 @@ namespace Practica_Framework_Ejercicio2
         static void Main(string[] args)
         {
             String nombre, apellido;
-            int edad;
+            int edad=0;
             int pulsaciones = 0;
             char sexo;
 
